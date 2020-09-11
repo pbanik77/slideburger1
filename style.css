@@ -1,0 +1,225 @@
+
+/*google font*/
+
+.{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+/*global css*/
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+}
+p, span, input{
+	font-family: 'Montserrat', sans-serif;
+}
+h2, h3, h4, h5, h6, button{
+	font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+text-decoration: none; 
+ }
+ /*header css here*/
+
+ header{
+ 	width: 100%;
+ 	background: url(backgroundburger.png);
+ 	position: cover;
+ 	background-position: center;
+ 	height: 100vh;
+ 	background-repeat: no-repeat;
+ }
+ nav{
+ 	padding: 80px 0 !important;
+ }
+ 
+ .navbar{
+ 	padding: 15px;
+ }
+ .nav-link{
+ 	font-weight: 600;
+ 	font-size: 18px;
+ 	font-family: 'Bebas Neue', cursive;
+ 	text-transform: uppercase; 
+ }
+ .nav-item{
+ 	margin-left: 20px
+ }
+ .banner{
+ 	width: 100%;
+ 	margin: 200px 0;
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	height: 60vh
+ }
+ .banner .title{
+ 	font-size: 87px;
+box-shadow: 8px 4px #fee8bb !important:
+color: #3d2514;
+font-family: 'Bebas Neue', cursive;
+font-weight: 500px;
+ }
+.banner .pre-title{
+	font-size: 18px;
+	border: 1px dashed #3d2514;
+	display: inline-block;
+padding: 8px;
+color: #3d2514;
+font-family: 'Bebas Neue', cursive;
+}
+.banner .sub-title{
+font-size: 60px;
+text-transform: uppercase;
+}
+/*burger blog css here*/
+
+.blog-image{
+	width: 100%;
+	background: url(2ndburger.png);
+	height: 100vh;
+	position: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -300px;
+}
+.blog-text{
+	margin-top: -650px;
+	text-transform: uppercase;
+}
+
+.blog-image2a{
+	height: 50vh;
+	width: 	100%;
+	margin-top: -17px;
+}
+.blog-image2b{
+	margin-top: 105px !important;
+}
+.blog-image2atext{
+	margin-top: -457px !important;
+	text-transform: uppercase;
+}
+.blog-image2btext{
+	margin-top: -135px;
+	text-transform: uppercase;
+}
+/*button css here*/
+.button-part{
+	width: 100%;
+	margin: 175px 0;
+	text-align: center;
+	color: #42200b;
+}
+.button-part button{
+	padding: 10px 55px;
+    background-color: #ffc135;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200b;
+}
+/*choose burger css*/
+.choose-burger{
+	width: 100%
+	color: #42200b;
+}
+.col-md-4{
+	text-align: center;
+}
+.burger-choose button{
+	    padding: 15px 50px !important;
+    background-color: #df1c1c !important;
+    color: white;
+    border: none;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+.event{
+	width: 100%;
+	margin: 102px 0;
+}
+
+.event-body:hover{
+	box-shadow: 6px 5px 10px  6px black;
+} 
+.event-text{
+	color:#3d2514;
+	padding: 37px 14px;
+}
+.owl-theme .owl-nav{
+	display: none;
+}
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+}
+.registration{
+	width: 100%;
+	text-align: center;
+}
+.reservation{
+	text-align: center;
+	color: #42200b;
+	text-transform: uppercase;
+}
+.user{
+	    padding: 72px 523px;
+
+}
+.user input{
+	padding: 10px 35px;
+	margin: 32px 0px;
+}
+.submit{
+    padding: 10px 88px;
+        margin: -10px;
+    margin-top: -120px;
+    margin-left: 200px;
+    color: red !important;
+}
+.bottle{
+	margin-top: -545px;
+    margin-left: 242px;
+
+}
+.side-burger{
+	margin-top: -600px;
+
+}
+.side-plate{
+	margin-left: 1089px;
+}
+.footer{
+	width: 100%
+	height: 50vh;
+
+}
+.footer .image{
+	margin-left: 43px;
+    margin-top: -125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
